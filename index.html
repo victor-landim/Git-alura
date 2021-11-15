@@ -1,15 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Cursos da Alura</title>
-</head>
-<body>
-    <ul>
-        <li>Vagrant</li>
-        <li>Docker</li>
-        <li>Ansible</li>
-        <li>Integra√ß√£o Cont√≠nua</li>
-    </ul>
-</body>
+<!doctype html>
+<html>
+    <meta http-equiv=?Content-Type? content=?text/html; charset=iso-8859-1?>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <head>
+        <title>WeatherStack api</title>
+    </head>
+    <body>
+        <form class="form" action="">
+            Infome o local: <input type="text" id="selecionarCidade" value="" data-form-input>
+            <button data-button>Pesquisar </button>
+        </form>
+        <h1>A temperatura em <b id="local"></b> est· em <b id="temperatura"></b>∫</h1>
+    </body>
+
+<script src="./weather-forecast.js" type="text/javascript">
+    $(document).ready(function () {
+        console.log(weatherForecast.clima('Campo Grande'));
+    })
+</script>
 </html>
